@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func convertButtonTapped(_ sender: UIButton) {
-
             // Validate that at least one currency is selected
             if selectedCurrencies.isEmpty {
                 errorLabel.text = "Please select at least one currency."
