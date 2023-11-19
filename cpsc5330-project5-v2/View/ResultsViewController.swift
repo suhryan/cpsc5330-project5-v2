@@ -8,13 +8,13 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
-    @IBOutlet weak var usdAmountLabel: UILabel!
+    @IBOutlet weak var usdAmountLabel: UILabel! //remove-used for testing
 
     @IBOutlet weak var usdLabel: UILabel!
-    @IBOutlet weak var currency1Label: UILabel!
-    @IBOutlet weak var currency2Label: UILabel!
-    @IBOutlet weak var currency3Label: UILabel!
-    @IBOutlet weak var currency4Label: UILabel!
+    @IBOutlet weak var currency1Label: UILabel! //remove-used for testing
+    @IBOutlet weak var currency2Label: UILabel! //remove-used for testing
+    @IBOutlet weak var currency3Label: UILabel! //remove-used for testing
+    @IBOutlet weak var currency4Label: UILabel! //remove-used for testing
 
     var amountInUSD: Int = 0
     var selectedCurrencies: [String] = []
